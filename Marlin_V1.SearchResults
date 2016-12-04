@@ -1,0 +1,6 @@
+---- M84 Matches (5 in 3 files) ----
+Configuration_adv.h (marlin):#define SD_FINISHED_RELEASECOMMAND "M84 X Y Z E" // You might want to keep the z enabled so your bed stays in place.
+Marlin_main.cpp (marlin):// M18  - Disable all stepper motors; same as M84
+Marlin_main.cpp (marlin):// M84  - Disable steppers until next move,
+Marlin_main.cpp (marlin):    case 84: // M84
+Ultralcd.cpp (marlin):    MENU_ITEM(gcode, MSG_DISABLE_STEPPERS, PSTR("M84"));
